@@ -68,7 +68,7 @@ Whether you're a beginner or someone revisiting the web dev journey:
 
 ## 🏁 Final Goal
 
-By the end of these 100 days:
+By the end:
 - I aim to become **job-ready** as a web developer.
 - I will have built a **diverse project portfolio**.
 - I’ll use this as a stepping stone toward **machine learning & AI** integration on the web.
