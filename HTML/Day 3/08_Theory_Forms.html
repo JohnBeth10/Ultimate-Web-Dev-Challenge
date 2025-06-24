@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Forms</title>
 </head>
+
 <body>
     <img src="08_TH_Forms 1.png" alt="img" height="250px">
     <img src="08_TH_Forms 2.png" alt="img" height="250px">
@@ -23,5 +25,50 @@
     <img src="08_TH_Forms 15.png" alt="img" height="250px">
 
     <h1>Forms - Example</h1>
+
+    <form action="/action">
+        <div>
+            <label for="txt">Text Input: </label>
+            <input type="text" id="txt" placeholder="Enter Text">
+        </div>
+        <div><label for="pswd">Password Input: </label>
+            <input type="password" id="pswd" placeholder="Enter Password">
+        </div>
+        <div><label for="num">Number Input: </label>
+            <input type="number" id="num" placeholder="Enter Number">
+        </div>
+        <div><label for="time">Time Input: </label>
+            <input type="time" id="time" placeholder="Enter Time">
+        </div>
+        <div><label for="clr">Colour Input: </label>
+            <input type="color" id="clr" placeholder="Enter Colour">
+        </div>
+        <div><label for="date">Date Input: </label>
+            <input type="date" id="date" placeholder="Enter Date">
+        </div>
+        <div><label for="search">Search Input: </label>
+            <input type="search" id="search" placeholder="Enter Search Text">
+        </div>
+        <div><label for="range">Range Input: </label>
+            <input type="range" id="range"placeholder="Enter Range">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <hr style="height: 3px; background-color:black;">
+
+    <h2>Form - Search in YT</h2>
+    <form action="https://www.youtube.com/results">
+        <div>
+            <label for="query">Search in YouTube</label>
+            <input type="text" id="query" name="search_query">
+            <button>Search</button>
+        </div>
+    </form>
 </body>
+
 </html>
