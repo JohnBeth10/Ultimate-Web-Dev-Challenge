@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
+</head>
+
+<body>
+    <img src="03_Assignment_Q1.png" alt="Q1" height="250px">
+
+    <table border="black">
+        <caption>Student Information</caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <br>
+
+    <hr style="height: 3px; background-color: black;">
+
+    <img src="03_Assignment_Q2.png" alt="Q1" height="250px">
+    <form action="/submit">
+        <div><label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country: </label>
+            <select name="country" id="country">
+                <option value="select">Select an option</option>
+                <option value="England">England</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="Belgium">Belgium</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="msg">Message: </label><br>
+            <textarea name="Message" id="msg" rows="3"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="sub" id="sub">
+            <label for="sub">Subscribe?</label>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+    <hr style="height: 3px; background-color: black;">
+
+    <img src="03_Assignment_Q3.png" alt="Q3" height="400px">
+    <form action="">
+        <div><label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Write your name">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Write your email">
+        </div>
+        <br>
+        <div>
+            <label for="msg">Message:</label><br>
+            <textarea name="message" id="msg" rows="4" cols="35"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="rating">Rate us out of 5:</label><br>
+            <input type="radio" name="rating" id="1">
+            <label for="1">1</label><br>
+            <input type="radio" name="rating" id="2">
+            <label for="1">2</label><br>
+            <input type="radio" name="rating" id="3">
+            <label for="1">3</label><br>
+            <input type="radio" name="rating" id="4">
+            <label for="1">4</label><br>
+            <input type="radio" name="rating" id="5">
+            <label for="1">5</label>
+        </div>
+        <br>
+        <div>
+            <button>Send your message</button>
+        </div>
+
+    </form>
+</body>
+
+</html>

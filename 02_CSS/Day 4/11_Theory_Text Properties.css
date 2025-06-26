@@ -1,0 +1,20 @@
+h1{
+    text-align: center; /*these properties applies w.r.t the parent element not the document, if text-allign is set as right and width is set as 50% then the text tends to appear in the middle of the document */
+    /* text-align: right;
+    width: 50%; */
+    text-decoration:rebeccapurple underline;
+}
+h3{
+    text-align: left;
+    text-decoration: greenyellow line-through;
+}
+p{
+    text-align: justify;
+}
+h2{
+    font-weight: 800;
+    text-decoration: double orange overline;
+}
+a{
+    text-decoration: none;
+}
