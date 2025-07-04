@@ -15,13 +15,16 @@ div{
     border-left: 5px dashed red;
 
     /* Border radius */
-    border-radius: 30px;
+    border-radius: 20px;
 
     /* A circle can be made by setting equal height & width, and border-radius: 50%. */
 
     /* Individual sides can also be controlled using border-radius */
 
     /* border-top-right-radius: 30px; */
+
+    /* Margin */
+    margin: 20px 30px;
 
 }
 h1{
