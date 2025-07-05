@@ -1,0 +1,49 @@
+h1{
+    border: 2px solid black
+}
+#outer_percent{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin: 50px;
+}
+#inner_percent{
+    height: 33.33%;
+    width: 33.33%;
+    background-color: cornflowerblue;
+    margin-left: 10%;
+}
+#outer_em{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: aqua;
+    font-size: 10px;
+}
+#inner_em{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 3em; /*3 times with respect to the font size of the outer div*/
+    padding: 1.5em; /*1.5 times of the font size of the inner div (padding takes its elements font size as reference not its parents)*/
+}
+button{ /* 
+  💡 Using 'em' instead of 'px' makes styles more flexible and scalable.
+  When we use 'em', the size adjusts relative to the parent or base font size.
+  This means: if we change the font size of the container (e.g., from 50px to 100px),
+  paddings, margins, etc., defined in 'em' also scale automatically. 
+  BUT, if we use 'px', paddings/margins stay fixed and may look odd or break layout.
+  So, 'em' helps in making designs responsive and consistent with text size!
+*/
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+section{
+    font-size: 25px;
+}
+ div{
+    font-size: 2rem;
+ }
