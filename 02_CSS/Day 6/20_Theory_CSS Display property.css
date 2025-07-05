@@ -1,0 +1,7 @@
+span{
+    background-color: green;
+    height: 100px; /*Does not affect*/
+    width: 200px; /*Does not affect*/
+    padding: 50px; /*Applies only in the left and right*/
+    margin: 15px; /*Applies only in the left and right*/
+}
