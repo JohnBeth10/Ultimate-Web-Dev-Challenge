@@ -38,7 +38,7 @@
 }
 #container div{
     height: 100px;
-    width: 150px;
+    width: 300px;
     text-align: center;
     font-size: 1.125em;
     font-weight: 600;
@@ -47,7 +47,15 @@
 }
 
 #org{
-    align-self: flex-end;
+    /* align-self: flex-end; */
+    flex-basis: 150px;
+    flex-grow: 1;
+    flex: 1 2 100px;
+}
+#blu{
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 100px;
 }
 
 h1{
