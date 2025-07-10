@@ -1,0 +1,41 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* Animation */
+
+    /* animation-name: animateoverall;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-iteration-count: 10;
+    animation-direction: alternate; */
+
+    animation: animateoverall 5s ease-in 2s infinite alternate;
+}
+
+@keyframes animateoverall {
+    0%{
+        font-size: 20px;
+        background-color: aqua;
+        text-align: center;
+        line-height: 100px;
+    }
+    50%{
+        background-color: greenyellow;
+        line-height: 200px;
+        border-radius: 7.5px;
+        text-align: center;
+    }
+    100%{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        background-color: orangered;
+        border-radius: 15px;
+        height: 400px;
+        width: 400px;
+        line-height: 400px;
+    }
+}

@@ -1,0 +1,48 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: orangered;
+    display: grid;
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px ; */
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+    /* Grid gaps */
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    grid-gap: 10px 20px;
+
+    /* Justify-item (remove the comment of ht and wdt in .item and comment out grid-column and grid-row in .one and .two) */
+    /* justify-items: end;
+    align-items: start; */
+
+}
+.item{
+    /* width: 100px;
+    height: 50px; */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+.one{ 
+    /* It will start from the first line till the 3rd line (2 columns)  */
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    /* short-hand */
+    grid-column: 1/4;
+
+    /* from 1st line cov/ering 2 columns */
+    grid-column: 1/ span 2;
+
+    /* Justify-item*/
+    /* justify-self: center;
+    align-self: end; */
+}   
+.two{
+    grid-row: 1/4;
+    grid-row: 1/ span 3;
+}
+
