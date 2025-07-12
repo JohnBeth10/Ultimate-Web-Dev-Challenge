@@ -1,0 +1,77 @@
+#container{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(255, 253, 250);
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+    
+}
+.box{
+    background-color: pink;
+}
+.Header{
+    grid-column: 1/ span 12;
+}
+.Sidebar{
+    
+    grid-column: 1/ span 3;
+    grid-row: 2/ span 10;
+}
+.Navigator{
+    grid-column: 4/ span 6;
+}
+.Main{
+    grid-column: 4/ span 6;
+    grid-row: 3/ span 9;
+}
+.Ads{
+    grid-column: 10/ span 3;
+    grid-row: 2/ span 10;
+}
+.Footer{
+    grid-column: 1/ span 12;
+
+}
+
+
+@media(max-width: 720px){
+    .Navigator{
+        grid-column: 1/ span 12; 
+        grid-row: 2 / span 1;
+    }
+    .Sidebar{
+        grid-row: 3/ span 9;
+        grid-column: 1/ span 3;
+    }
+    .Main{
+        grid-column: 4/ span 9;
+        grid-row: 3/ span 9;
+    }
+    .Ads{
+        grid-column: 1/ span 3;
+        grid-row: 12/ span 1;
+    }
+    .Footer{
+        grid-column: 4/ span 9;
+    }
+}
+
+.loader{
+    height: 120px;
+    width: 120px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    animation: spin 2s linear 3s infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
