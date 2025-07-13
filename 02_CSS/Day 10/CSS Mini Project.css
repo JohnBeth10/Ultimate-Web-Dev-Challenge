@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.main_box{
+    background-image: url(background_photo.jpg);
+    height: 100vh;
+    background-size:cover;
+}
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 800px;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    opacity: 1;
+    transition: opacity 1.5s ease;
+}
+.sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    left: -300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s linear;
+}
+.sidebar_menu .logo a{
+    font-family: "Tektur", sans-serif;
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    left: 25px;
+    line-height: 60px;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.5);
+    height: 60px;
+
+}
+.btn_two{
+    color: gray;
+    position: absolute;
+    left: 273px;
+    top: 15px;
+    font-size: 23px;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+}
+.social_media ul{
+    list-style-type: none;
+    /* position: absolute; */
+    width: 100%;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    top: 60px;
+}
+.menu li {
+    color: white;
+    font-size: 20px;
+    /* margin: 10px 15px; */
+    padding: 15px 20px;   
+}
+.menu li a{
+    padding: 4px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.social_media{
+    position: absolute;
+    left: 30%;
+    bottom: 50px;
+}
+.social_media a{
+    color: white;
+    opacity: 0.5;
+    padding: 3px;
+}
+#check{
+    display: none;
+}
+
+/* Hover and Styles */
+
+.btn_one:hover{
+    font-size: 35px;
+    text-shadow: 0 0 20px rgb(119, 8, 8);
+    transition: text-shadow 0.3s ease;
+    color: brown;
+}
+.btn_two:hover{
+    font-size: 25;
+    text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 3px orangered, 0 0 3px rgb(241, 28, 28);
+    transition: text-shadow 0.3s ease;
+    color: red;
+}
+.logo a:hover{
+  text-shadow:
+    0 0 5px rgb(0, 255, 255),
+    0 0 10px rgb(0, 200, 200),
+    0 0 20px rgb(0, 180, 180);
+  transition: text-shadow 0.3s ease;
+}
+
+.menu li:hover{
+    box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 5px orange, 0 0 7px orangered, 0 0 10px orange;
+    transition: text-shadow 0.3s ease;
+}
+.social_media a:hover{
+    opacity: 1;
+    font-size: 20px;   
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one{
+    opacity: 0;
+}
+#check:checked ~ .sidebar_menu .btn_two{
+    opacity: 1;
+}
