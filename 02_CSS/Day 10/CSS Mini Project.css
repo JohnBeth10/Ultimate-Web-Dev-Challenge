@@ -19,7 +19,7 @@
     transition: opacity 1.5s ease;
 }
 .sidebar_menu{
-    position: fixed;
+    position:fixed;
     height: 100vh;
     width: 300px;
     left: -300px;
@@ -33,7 +33,7 @@
     position: absolute;
     color: white;
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 600px;
     left: 25px;
     line-height: 60px;
 }
