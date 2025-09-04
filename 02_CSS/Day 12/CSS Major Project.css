@@ -46,6 +46,7 @@ body{
     line-height: 2.5rem;
     opacity: 0.7;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 .nav-option:hover{
     opacity: 1;
@@ -82,6 +83,7 @@ body{
 .lib-option{
     line-height: 2.5rem;
     opacity: 0.7;
+    cursor: pointer;
 }
 .lib-option a{
     text-decoration: none;
@@ -109,6 +111,7 @@ body{
     padding: 0.5rem 0.5rem;
     margin-left: 1rem;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 .icon1{
     padding: 0.5rem;
@@ -138,6 +141,7 @@ body{
     margin-top: 0.5rem;
     transform: scale(1);
     transition: all 0.25s ease;
+    cursor: pointer;
 }
 .badge:hover{
     background-color: #1DB954;
@@ -169,11 +173,13 @@ body{
 }
 .sticky-btn{
     margin: 0 1rem;
+    
 }
 
 .sticky-user{
     transform: scale(1);
     transition: all 0.25s ease;
+    cursor: pointer;
 }
 .sticky-user:hover{
     color: #1DB954;
@@ -194,6 +200,7 @@ body{
 .sticky-icons{
     transform: scale(1);
     transition: all 0.25s ease;
+    cursor: pointer;
 }
 .sticky-icons:hover{
     color: #1DB954;
@@ -222,6 +229,7 @@ body{
     margin-bottom: 0.5rem;
     transform: scale(1);
     transition: all 0.25s ease;
+    cursor: pointer;
 }
 .card:hover{
     transform: scale(1.1);
@@ -279,6 +287,7 @@ h2{
     color: #1DB954;
     opacity: 1;
     text-decoration: underline 1.5px solid white;
+    cursor: pointer;
 
 }
 
@@ -306,6 +315,7 @@ h2{
     opacity: 0.7;
     transform: scale(1);
     transition: all 0.25s ease ;
+    cursor: pointer;
 }
 .player-controls{
     display: flex;
@@ -327,6 +337,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .progress-bar{
     width: 50%;
@@ -347,6 +358,7 @@ h2{
     margin-top: -0.42rem;
     background-color: #1DB954;
     border-radius: 50%;
+    cursor: pointer;
 }
 .progress-bar:hover{
     padding: 0.125rem 0;
@@ -369,11 +381,13 @@ h2{
     border-radius: 0.75rem;
     transform: scale(1);
     transition: all 0.25s ease;
+    cursor: pointer;
 }
 .music-info{
     margin: 0 1rem;
     margin-right: -1rem;
     line-height: 0.5rem;
+    cursor: pointer;
 }
 .music-title{
     font-weight: 600;
@@ -413,6 +427,7 @@ h2{
     justify-content: end;
     align-items: center;
     margin-right: 2rem;
+    cursor: pointer;
 }
 .music-controls{
     display: flex;
@@ -465,6 +480,7 @@ h2{
     margin-top: -0.42rem;
     background-color: #1DB954;
     border-radius: 50%;
+    cursor: pointer;
 }
 .sound-bar::-webkit-slider-thumb:hover{
     background-color: #232323;
